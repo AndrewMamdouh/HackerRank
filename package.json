@@ -1,0 +1,12 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
