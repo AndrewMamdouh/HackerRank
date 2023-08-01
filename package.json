@@ -1,7 +1,8 @@
 {
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "doc": "jsdoc -r src"
   },
   "devDependencies": {
     "jest": "^29.6.2"
