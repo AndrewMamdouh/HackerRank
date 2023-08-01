@@ -1,3 +1,11 @@
+/** 
+ * Counts the number of special problems in the workbook
+ * @author Andrew Mamdouh <andrewm.developer@gmail.com>
+ * @param {number} n - The number of chapters
+ * @param {number} k - The maximum number of problems per page
+ * @param {number[]} arr - The number of problems in each chapter
+ * @returns {number} The number of special problems in the workbook
+*/
 function workbook(n, k, arr) {
     let pageNum = 0;
     
