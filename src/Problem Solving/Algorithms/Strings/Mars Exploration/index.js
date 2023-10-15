@@ -1,5 +1,5 @@
 /**
- * Counts the letters changed by radiation.
+ * Counts the letters changed by radiation
  * @author Andrew Mamdouh <andrewm.developer@gmail.com>
  * @param {string} s - The string received on Earth
  * @returns {number} The number of letters changed during transmission
