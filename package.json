@@ -4,12 +4,12 @@
         "email": "andrewm.developer@gmail.com"
     },
     "name": "hackerrank-solutions",
-    "description": "TypeScript Solution To HackerRank Problems",
+    "description": "A Well-documented TypeScript Solution To HackerRank Problems",
     "license": "MIT",
     "keywords": [
         "typescript",
-        "HackerRank",
-        "Problem Solving"
+        "hackerrank",
+        "problem-solving"
     ],
     "version": "1.0.0",
     "type": "module",
