@@ -1,13 +1,30 @@
 {
-  "type": "commonjs",
-  "scripts": {
-    "test": "jest",
-    "doc": "jsdoc -r src"
-  },
-  "devDependencies": {
-    "jest": "^29.6.2"
-  },
-  "jest": {
-    "verbose": true
-  }
+    "author": {
+        "name": "Andrew Mamdouh",
+        "email": "andrewm.developer@gmail.com"
+    },
+    "name": "hackerrank-solutions",
+    "description": "TypeScript Solution To HackerRank Problems",
+    "license": "MIT",
+    "keywords": ["typescript", "HackerRank", "Problem Solving"],
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "test": "jest",
+        "doc": "jsdoc -r src",
+        "lint": "eslint .",
+        "format": "prettier . --write"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.11",
+        "@typescript-eslint/eslint-plugin": "^6.18.1",
+        "@typescript-eslint/parser": "^6.18.1",
+        "eslint": "^8.56.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.1"
+    },
+    "dependencies": {
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
 }
