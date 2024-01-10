@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "ES2015",
+        "target": "ESNext",
+        "moduleResolution": "Bundler",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": false,
+        "strict": true,
+        "baseUrl": ".",
+        "paths": {
+            "@ProblemSolving/Algorithms/*": ["src/Problem Solving/Algorithms/*"]
+        }
+    }
+}
