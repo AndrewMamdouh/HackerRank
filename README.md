@@ -1,4 +1,4 @@
-![HackerRank](https://socialify.git.ci/AndrewMamdouh/HackerRank/image?description=1&descriptionEditable=TypeScript%20Solution%20To%20HackerRank%20Problems&font=KoHo&language=1&logo=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1ywAZd5_do82-mqbLX86nVorJE6q8wvXk&name=1&owner=1&pattern=Solid&theme=Light)
+![HackerRank](https://socialify.git.ci/AndrewMamdouh/HackerRank/image?description=1&font=KoHo&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FAndrewMamdouh%2FAndrewMamdouh%2Fmain%2Ficons%2Fhackerrank.svg&name=1&owner=1&pattern=Solid&theme=Light)
 
 # HackerRank Solutions
 
