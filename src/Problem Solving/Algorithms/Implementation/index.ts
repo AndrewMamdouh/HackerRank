@@ -6,6 +6,7 @@ import gradingStudents from '@ProblemSolving/Algorithms/Implementation/Grading S
 import workbook from "@ProblemSolving/Algorithms/Implementation/Lisa's Workbook"
 import kangaroo from '@ProblemSolving/Algorithms/Implementation/Number Line Jumps'
 import birthday from '@ProblemSolving/Algorithms/Implementation/Subarray Division'
+import stones from '@ProblemSolving/Algorithms/Implementation/Manasa and Stones'
 
 export {
     countApplesAndOranges,
@@ -16,4 +17,5 @@ export {
     workbook,
     kangaroo,
     birthday,
+    stones
 }
