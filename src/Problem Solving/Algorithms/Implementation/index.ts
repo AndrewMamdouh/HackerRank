@@ -7,6 +7,7 @@ import workbook from "@ProblemSolving/Algorithms/Implementation/Lisa's Workbook"
 import kangaroo from '@ProblemSolving/Algorithms/Implementation/Number Line Jumps'
 import birthday from '@ProblemSolving/Algorithms/Implementation/Subarray Division'
 import stones from '@ProblemSolving/Algorithms/Implementation/Manasa and Stones'
+import pickingNumbers from '@ProblemSolving/Algorithms/Implementation/Picking Numbers'
 
 export {
     countApplesAndOranges,
@@ -17,5 +18,6 @@ export {
     workbook,
     kangaroo,
     birthday,
-    stones
+    stones,
+    pickingNumbers,
 }

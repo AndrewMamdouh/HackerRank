@@ -9,7 +9,9 @@
         "strict": true,
         "baseUrl": ".",
         "paths": {
-            "@ProblemSolving/Algorithms/*": ["src/Problem Solving/Algorithms/*"],
+            "@ProblemSolving/Algorithms/*": [
+                "src/Problem Solving/Algorithms/*"
+            ],
             "@Helpers": ["src/helpers.ts"],
             "@Types": ["src/types.ts"]
         }

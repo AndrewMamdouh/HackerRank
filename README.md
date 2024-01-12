@@ -10,33 +10,33 @@ This repository is dedicated to solving various problems using **TypeScript**. T
 
 1. Clone the repository to your local machine:
 
-   ```bash
-   git clone https://github.com/AndrewMamdouh/HackerRank.git
-   ```
-   
+    ```bash
+    git clone https://github.com/AndrewMamdouh/HackerRank.git
+    ```
+
 2. Navigate to the project directory:
 
-   ```bash
-    cd HackerRank
-   ```
-   
+    ```bash
+     cd HackerRank
+    ```
+
 3. Install required dependencies:
 
-   ```bash
-    yarn
-   ```
+    ```bash
+     yarn
+    ```
 
 ### Available Scripts
 
-- #### Testing
+-   #### Testing
 
     Run Jest to execute tests:
 
     ```bash
      yarn run test
-    ```    
+    ```
 
-- #### Documentation
+-   #### Documentation
 
     Generate documentation using JSDoc:
 
