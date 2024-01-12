@@ -11,6 +11,7 @@ import pickingNumbers from '@ProblemSolving/Algorithms/Implementation/Picking Nu
 import catAndMouse from '@ProblemSolving/Algorithms/Implementation/Cats and a Mouse'
 import migratoryBirds from '@ProblemSolving/Algorithms/Implementation/Migratory Birds'
 import theHurdleRace from '@ProblemSolving/Algorithms/Implementation/The Hurdle Race'
+import getMoneySpent from '@ProblemSolving/Algorithms/Implementation/Electronics Shop'
 
 export {
     countApplesAndOranges,
@@ -26,4 +27,5 @@ export {
     catAndMouse,
     migratoryBirds,
     theHurdleRace,
+    getMoneySpent,
 }
