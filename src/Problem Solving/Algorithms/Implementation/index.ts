@@ -9,6 +9,7 @@ import birthday from '@ProblemSolving/Algorithms/Implementation/Subarray Divisio
 import stones from '@ProblemSolving/Algorithms/Implementation/Manasa and Stones'
 import pickingNumbers from '@ProblemSolving/Algorithms/Implementation/Picking Numbers'
 import catAndMouse from '@ProblemSolving/Algorithms/Implementation/Cats and a Mouse'
+import migratoryBirds from '@ProblemSolving/Algorithms/Implementation/Migratory Birds'
 
 export {
     countApplesAndOranges,
@@ -22,4 +23,5 @@ export {
     stones,
     pickingNumbers,
     catAndMouse,
+    migratoryBirds,
 }
