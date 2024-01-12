@@ -8,6 +8,7 @@ import kangaroo from '@ProblemSolving/Algorithms/Implementation/Number Line Jump
 import birthday from '@ProblemSolving/Algorithms/Implementation/Subarray Division'
 import stones from '@ProblemSolving/Algorithms/Implementation/Manasa and Stones'
 import pickingNumbers from '@ProblemSolving/Algorithms/Implementation/Picking Numbers'
+import catAndMouse from '@ProblemSolving/Algorithms/Implementation/Cats and a Mouse'
 
 export {
     countApplesAndOranges,
@@ -20,4 +21,5 @@ export {
     birthday,
     stones,
     pickingNumbers,
+    catAndMouse,
 }
