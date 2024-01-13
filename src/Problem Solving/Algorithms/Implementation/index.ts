@@ -13,6 +13,7 @@ import migratoryBirds from '@ProblemSolving/Algorithms/Implementation/Migratory 
 import theHurdleRace from '@ProblemSolving/Algorithms/Implementation/The Hurdle Race'
 import getMoneySpent from '@ProblemSolving/Algorithms/Implementation/Electronics Shop'
 import minimumDistances from '@ProblemSolving/Algorithms/Implementation/Minimum Distances'
+import chocolateFeast from '@ProblemSolving/Algorithms/Implementation/Chocolate Feast'
 
 export {
     countApplesAndOranges,
@@ -30,4 +31,5 @@ export {
     theHurdleRace,
     getMoneySpent,
     minimumDistances,
+    chocolateFeast,
 }
