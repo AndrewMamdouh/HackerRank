@@ -17,6 +17,7 @@ import chocolateFeast from '@ProblemSolving/Algorithms/Implementation/Chocolate 
 import divisibleSumPairs from '@ProblemSolving/Algorithms/Implementation/Divisible Sum Pairs'
 import bonAppetit from '@ProblemSolving/Algorithms/Implementation/Bill Division'
 import sockMerchant from '@ProblemSolving/Algorithms/Implementation/Sales by Match'
+import pageCount from '@ProblemSolving/Algorithms/Implementation/Drawing Book'
 
 export {
     countApplesAndOranges,
@@ -38,4 +39,5 @@ export {
     divisibleSumPairs,
     bonAppetit,
     sockMerchant,
+    pageCount,
 }
