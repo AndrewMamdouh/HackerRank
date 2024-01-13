@@ -14,6 +14,7 @@ import theHurdleRace from '@ProblemSolving/Algorithms/Implementation/The Hurdle 
 import getMoneySpent from '@ProblemSolving/Algorithms/Implementation/Electronics Shop'
 import minimumDistances from '@ProblemSolving/Algorithms/Implementation/Minimum Distances'
 import chocolateFeast from '@ProblemSolving/Algorithms/Implementation/Chocolate Feast'
+import divisibleSumPairs from '@ProblemSolving/Algorithms/Implementation/Divisible Sum Pairs'
 
 export {
     countApplesAndOranges,
@@ -32,4 +33,5 @@ export {
     getMoneySpent,
     minimumDistances,
     chocolateFeast,
+    divisibleSumPairs,
 }
