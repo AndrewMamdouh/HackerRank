@@ -15,6 +15,7 @@ import getMoneySpent from '@ProblemSolving/Algorithms/Implementation/Electronics
 import minimumDistances from '@ProblemSolving/Algorithms/Implementation/Minimum Distances'
 import chocolateFeast from '@ProblemSolving/Algorithms/Implementation/Chocolate Feast'
 import divisibleSumPairs from '@ProblemSolving/Algorithms/Implementation/Divisible Sum Pairs'
+import bonAppetit from '@ProblemSolving/Algorithms/Implementation/Bill Division'
 
 export {
     countApplesAndOranges,
@@ -34,4 +35,5 @@ export {
     minimumDistances,
     chocolateFeast,
     divisibleSumPairs,
+    bonAppetit,
 }
