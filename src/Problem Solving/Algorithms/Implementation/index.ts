@@ -19,6 +19,7 @@ import bonAppetit from '@ProblemSolving/Algorithms/Implementation/Bill Division'
 import sockMerchant from '@ProblemSolving/Algorithms/Implementation/Sales by Match'
 import pageCount from '@ProblemSolving/Algorithms/Implementation/Drawing Book'
 import countingValleys from '@ProblemSolving/Algorithms/Implementation/Counting Valleys'
+import designerPdfViewer from '@ProblemSolving/Algorithms/Implementation/Designer PDF Viewer'
 
 export {
     countApplesAndOranges,
@@ -42,4 +43,5 @@ export {
     sockMerchant,
     pageCount,
     countingValleys,
+    designerPdfViewer,
 }
