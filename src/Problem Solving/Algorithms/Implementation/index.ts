@@ -18,6 +18,7 @@ import divisibleSumPairs from '@ProblemSolving/Algorithms/Implementation/Divisib
 import bonAppetit from '@ProblemSolving/Algorithms/Implementation/Bill Division'
 import sockMerchant from '@ProblemSolving/Algorithms/Implementation/Sales by Match'
 import pageCount from '@ProblemSolving/Algorithms/Implementation/Drawing Book'
+import countingValleys from '@ProblemSolving/Algorithms/Implementation/Counting Valleys'
 
 export {
     countApplesAndOranges,
@@ -40,4 +41,5 @@ export {
     bonAppetit,
     sockMerchant,
     pageCount,
+    countingValleys,
 }
