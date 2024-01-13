@@ -20,6 +20,7 @@ import sockMerchant from '@ProblemSolving/Algorithms/Implementation/Sales by Mat
 import pageCount from '@ProblemSolving/Algorithms/Implementation/Drawing Book'
 import countingValleys from '@ProblemSolving/Algorithms/Implementation/Counting Valleys'
 import designerPdfViewer from '@ProblemSolving/Algorithms/Implementation/Designer PDF Viewer'
+import utopianTree from '@ProblemSolving/Algorithms/Implementation/Utopian Tree'
 
 export {
     countApplesAndOranges,
@@ -44,4 +45,5 @@ export {
     pageCount,
     countingValleys,
     designerPdfViewer,
+    utopianTree,
 }
