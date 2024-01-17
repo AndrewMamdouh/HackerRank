@@ -28,6 +28,7 @@ import saveThePrisoner from '@ProblemSolving/Algorithms/Implementation/Save the 
 import circularArrayRotation from '@ProblemSolving/Algorithms/Implementation/Circular Array Rotation'
 import permutationEquation from '@ProblemSolving/Algorithms/Implementation/Sequence Equation'
 import jumpingOnClouds from '@ProblemSolving/Algorithms/Implementation/Jumping on the Clouds (Revisited)'
+import findDigits from '@ProblemSolving/Algorithms/Implementation/Find Digits'
 
 export {
     countApplesAndOranges,
@@ -60,4 +61,5 @@ export {
     circularArrayRotation,
     permutationEquation,
     jumpingOnClouds,
+    findDigits,
 }
