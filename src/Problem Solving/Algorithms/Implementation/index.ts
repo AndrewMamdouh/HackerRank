@@ -24,6 +24,7 @@ import utopianTree from '@ProblemSolving/Algorithms/Implementation/Utopian Tree'
 import angryProfessor from '@ProblemSolving/Algorithms/Implementation/Angry Professor'
 import beautifulDays from '@ProblemSolving/Algorithms/Implementation/Beautiful Days at the Movies'
 import viralAdvertising from '@ProblemSolving/Algorithms/Implementation/Viral Advertising'
+import saveThePrisoner from '@ProblemSolving/Algorithms/Implementation/Save the Prisoner!'
 
 export {
     countApplesAndOranges,
@@ -52,4 +53,5 @@ export {
     angryProfessor,
     beautifulDays,
     viralAdvertising,
+    saveThePrisoner,
 }
