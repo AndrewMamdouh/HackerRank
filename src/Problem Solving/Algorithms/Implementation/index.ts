@@ -24,8 +24,9 @@ import utopianTree from '@ProblemSolving/Algorithms/Implementation/Utopian Tree'
 import angryProfessor from '@ProblemSolving/Algorithms/Implementation/Angry Professor'
 import beautifulDays from '@ProblemSolving/Algorithms/Implementation/Beautiful Days at the Movies'
 import viralAdvertising from '@ProblemSolving/Algorithms/Implementation/Viral Advertising'
-import saveThePrisoner from '@ProblemSolving/Algorithms/Implementation/Save the Prisoner!'
+import saveThePrisoner from '@ProblemSolving/Algorithms/Implementation/Save the Prisoner'
 import circularArrayRotation from '@ProblemSolving/Algorithms/Implementation/Circular Array Rotation'
+import permutationEquation from '@ProblemSolving/Algorithms/Implementation/Sequence Equation'
 
 export {
     countApplesAndOranges,
@@ -56,4 +57,5 @@ export {
     viralAdvertising,
     saveThePrisoner,
     circularArrayRotation,
+    permutationEquation,
 }
