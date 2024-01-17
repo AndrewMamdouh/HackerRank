@@ -22,6 +22,7 @@ import countingValleys from '@ProblemSolving/Algorithms/Implementation/Counting 
 import designerPdfViewer from '@ProblemSolving/Algorithms/Implementation/Designer PDF Viewer'
 import utopianTree from '@ProblemSolving/Algorithms/Implementation/Utopian Tree'
 import angryProfessor from '@ProblemSolving/Algorithms/Implementation/Angry Professor'
+import beautifulDays from '@ProblemSolving/Algorithms/Implementation/Beautiful Days at the Movies'
 
 export {
     countApplesAndOranges,
@@ -48,4 +49,5 @@ export {
     designerPdfViewer,
     utopianTree,
     angryProfessor,
+    beautifulDays,
 }
