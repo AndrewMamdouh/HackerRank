@@ -27,6 +27,7 @@ import viralAdvertising from '@ProblemSolving/Algorithms/Implementation/Viral Ad
 import saveThePrisoner from '@ProblemSolving/Algorithms/Implementation/Save the Prisoner'
 import circularArrayRotation from '@ProblemSolving/Algorithms/Implementation/Circular Array Rotation'
 import permutationEquation from '@ProblemSolving/Algorithms/Implementation/Sequence Equation'
+import jumpingOnClouds from '@ProblemSolving/Algorithms/Implementation/Jumping on the Clouds (Revisited)'
 
 export {
     countApplesAndOranges,
@@ -58,4 +59,5 @@ export {
     saveThePrisoner,
     circularArrayRotation,
     permutationEquation,
+    jumpingOnClouds,
 }
