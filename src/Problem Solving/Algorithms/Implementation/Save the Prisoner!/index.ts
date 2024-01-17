@@ -1,6 +1,4 @@
 /**
- *  Determine the chair number occupied by the prisoner who will receive that candy.
- *
  * Determines the chair number occupied by the prisoner who will receive that candy
  * @author Andrew Mamdouh <andrewm.developer@gmail.com>
  * @param {number} n - The number of prisoners

@@ -25,6 +25,7 @@ import angryProfessor from '@ProblemSolving/Algorithms/Implementation/Angry Prof
 import beautifulDays from '@ProblemSolving/Algorithms/Implementation/Beautiful Days at the Movies'
 import viralAdvertising from '@ProblemSolving/Algorithms/Implementation/Viral Advertising'
 import saveThePrisoner from '@ProblemSolving/Algorithms/Implementation/Save the Prisoner!'
+import circularArrayRotation from '@ProblemSolving/Algorithms/Implementation/Circular Array Rotation'
 
 export {
     countApplesAndOranges,
@@ -54,4 +55,5 @@ export {
     beautifulDays,
     viralAdvertising,
     saveThePrisoner,
+    circularArrayRotation,
 }
