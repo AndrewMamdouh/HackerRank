@@ -28,3 +28,6 @@ export const countDuplicates = (arr: number[]) =>
         acc[cur] ? acc[cur]++ : (acc[cur] = 1)
         return acc
     }, {})
+
+export const reverseNum = (num: number) =>
+    parseFloat(num.toString().split('').reverse().join(''))
