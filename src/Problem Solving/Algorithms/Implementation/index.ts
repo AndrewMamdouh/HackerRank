@@ -23,6 +23,7 @@ import designerPdfViewer from '@ProblemSolving/Algorithms/Implementation/Designe
 import utopianTree from '@ProblemSolving/Algorithms/Implementation/Utopian Tree'
 import angryProfessor from '@ProblemSolving/Algorithms/Implementation/Angry Professor'
 import beautifulDays from '@ProblemSolving/Algorithms/Implementation/Beautiful Days at the Movies'
+import viralAdvertising from '@ProblemSolving/Algorithms/Implementation/Viral Advertising'
 
 export {
     countApplesAndOranges,
@@ -50,4 +51,5 @@ export {
     utopianTree,
     angryProfessor,
     beautifulDays,
+    viralAdvertising,
 }
