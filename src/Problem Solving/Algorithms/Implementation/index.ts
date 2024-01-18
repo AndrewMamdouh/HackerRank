@@ -30,6 +30,7 @@ import permutationEquation from '@ProblemSolving/Algorithms/Implementation/Seque
 import jumpingOnClouds from '@ProblemSolving/Algorithms/Implementation/Jumping on the Clouds (Revisited)'
 import findDigits from '@ProblemSolving/Algorithms/Implementation/Find Digits'
 import appendAndDelete from '@ProblemSolving/Algorithms/Implementation/Append and Delete'
+import squares from '@ProblemSolving/Algorithms/Implementation/Sherlock and Squares'
 
 export {
     countApplesAndOranges,
@@ -64,4 +65,5 @@ export {
     jumpingOnClouds,
     findDigits,
     appendAndDelete,
+    squares,
 }
