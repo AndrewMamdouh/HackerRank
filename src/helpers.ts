@@ -31,3 +31,18 @@ export const countDuplicates = (arr: number[]) =>
 
 export const reverseNum = (num: number) =>
     parseFloat(num.toString().split('').reverse().join(''))
+
+export const getLongestCommonSubStr = (x: string, y: string) => {
+    const maxStr = y.length > x.length ? y : x
+    const minStr = x.length < y.length ? x : y
+    let str = '',
+        tempSubstr: string
+    for (let i = 0; i < minStr.length; i++) {
+        for (let j = i + 1; j <= minStr.length; j++) {
+            tempSubstr = minStr.slice(i, j)
+            if (maxStr.includes(tempSubstr) && tempSubstr.length > str.length)
+                str = tempSubstr
+        }
+    }
+    return str
+}

@@ -29,6 +29,7 @@ import circularArrayRotation from '@ProblemSolving/Algorithms/Implementation/Cir
 import permutationEquation from '@ProblemSolving/Algorithms/Implementation/Sequence Equation'
 import jumpingOnClouds from '@ProblemSolving/Algorithms/Implementation/Jumping on the Clouds (Revisited)'
 import findDigits from '@ProblemSolving/Algorithms/Implementation/Find Digits'
+import appendAndDelete from '@ProblemSolving/Algorithms/Implementation/Append and Delete'
 
 export {
     countApplesAndOranges,
@@ -62,4 +63,5 @@ export {
     permutationEquation,
     jumpingOnClouds,
     findDigits,
+    appendAndDelete,
 }
