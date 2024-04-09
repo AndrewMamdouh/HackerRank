@@ -3,17 +3,22 @@
         "module": "ES2015",
         "target": "ESNext",
         "moduleResolution": "Bundler",
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "isolatedModules": true,
+        "noUnusedLocals": true,
+        "noImplicitReturns": true,
         "esModuleInterop": true,
         "resolveJsonModule": true,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "strict": true,
-        "baseUrl": ".",
+        "baseUrl": "src",
         "paths": {
-            "@ProblemSolving/Algorithms/*": [
-                "src/Problem Solving/Algorithms/*"
-            ],
-            "@Helpers": ["src/helpers.ts"],
-            "@Types": ["src/types.ts"]
+            "@ProblemSolving/Algorithms/*": ["Problem Solving/Algorithms/*"],
+            "@Helpers": ["helpers.ts"],
+            "@Types": ["types.ts"]
         }
-    }
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.test.ts"]
 }

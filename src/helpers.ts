@@ -1,6 +1,6 @@
 import { NestedArray } from '@Types'
 
-export const toFlatArray = <T>(arr: NestedArray<T>) =>
+export const toFlatArray = <T>(arr: NestedArray<T>): T[] =>
     arr.reduce(
         (acc: T[], cur) =>
             acc.concat(Array.isArray(cur) ? toFlatArray(cur) : cur),
@@ -24,7 +24,7 @@ export const recursiveSum = (
 }
 
 export const countDuplicates = (arr: number[]) =>
-    arr.reduce((acc: Record<number, number>, cur) => {
+    arr.reduce((acc: Record<string, number>, cur) => {
         acc[cur] ? acc[cur]++ : (acc[cur] = 1)
         return acc
     }, {})
