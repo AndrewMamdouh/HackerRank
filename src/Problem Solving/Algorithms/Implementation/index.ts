@@ -32,6 +32,7 @@ import findDigits from '@ProblemSolving/Algorithms/Implementation/Find Digits'
 import appendAndDelete from '@ProblemSolving/Algorithms/Implementation/Append and Delete'
 import squares from '@ProblemSolving/Algorithms/Implementation/Sherlock and Squares'
 import flatlandSpaceStations from '@ProblemSolving/Algorithms/Implementation/Flatland Space Stations'
+import fairRations from '@ProblemSolving/Algorithms/Implementation/Fair Rations'
 
 export {
     countApplesAndOranges,
@@ -68,4 +69,5 @@ export {
     appendAndDelete,
     squares,
     flatlandSpaceStations,
+    fairRations,
 }
