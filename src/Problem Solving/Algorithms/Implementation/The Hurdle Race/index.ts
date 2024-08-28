@@ -6,8 +6,8 @@
  * @returns {number} The minimum number of doses required
  */
 const hurdleRace = (k: number, height: number[]): number => {
-    const doses = Math.max(...height) - k
-    return doses > 0 ? doses : 0
-}
+    const doses = Math.max(...height) - k;
+    return doses > 0 ? doses : 0;
+};
 
-export default hurdleRace
+export default hurdleRace;

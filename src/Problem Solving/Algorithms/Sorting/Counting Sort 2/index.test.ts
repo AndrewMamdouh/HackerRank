@@ -1,4 +1,4 @@
-import { countingSort2 } from '@ProblemSolving/Algorithms/Sorting'
+import { countingSort2 } from '@ProblemSolving/Algorithms/Sorting';
 
 test('should return the sorted array', () => {
     expect(
@@ -17,5 +17,5 @@ test('should return the sorted array', () => {
         67, 67, 68, 69, 69, 69, 70, 70, 73, 73, 74, 75, 75, 76, 78, 78, 79, 79,
         80, 81, 81, 82, 83, 83, 84, 85, 86, 86, 87, 87, 89, 89, 89, 90, 90, 91,
         92, 94, 95, 96, 98, 98, 99, 99,
-    ])
-})
+    ]);
+});

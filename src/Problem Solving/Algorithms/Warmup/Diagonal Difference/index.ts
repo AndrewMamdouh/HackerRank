@@ -5,10 +5,10 @@
  * @returns {number} The absolute diagonal difference
  */
 const diagonalDifference = (arr: number[][]): number => {
-    const maxIdx = arr.length - 1
+    const maxIdx = arr.length - 1;
     return Math.abs(
         arr.reduce((acc, cur, idx) => acc + cur[idx] - cur[maxIdx - idx], 0)
-    )
-}
+    );
+};
 
-export default diagonalDifference
+export default diagonalDifference;

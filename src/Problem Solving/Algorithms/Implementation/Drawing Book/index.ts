@@ -6,6 +6,6 @@
  * @returns {number} The minimum number of pages to turn
  */
 const pageCount = (n: number, p: number): number =>
-    Math.min(Math.floor(p / 2), Math.floor((n - p + +(n % 2 === 0)) / 2))
+    Math.min(Math.floor(p / 2), Math.floor((n - p + +(n % 2 === 0)) / 2));
 
-export default pageCount
+export default pageCount;

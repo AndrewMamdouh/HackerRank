@@ -5,6 +5,6 @@
  * @returns {number} The sum
  */
 const aVeryBigSum = (arr: number[]): number =>
-    arr.reduce((acc, cur) => acc + cur)
+    arr.reduce((acc, cur) => acc + cur);
 
-export default aVeryBigSum
+export default aVeryBigSum;

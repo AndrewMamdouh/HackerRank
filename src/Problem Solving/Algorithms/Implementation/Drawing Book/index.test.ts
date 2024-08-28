@@ -1,5 +1,5 @@
-import { pageCount } from '@ProblemSolving/Algorithms/Implementation'
+import { pageCount } from '@ProblemSolving/Algorithms/Implementation';
 
 test('should return the number of pages to turn', () => {
-    expect(pageCount(6, 2)).toBe(1)
-})
+    expect(pageCount(6, 2)).toBe(1);
+});

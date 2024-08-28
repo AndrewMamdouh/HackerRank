@@ -5,6 +5,6 @@
  * @param {number} b - Second number
  * @returns {number} The sum of two numbers
  */
-const solveMeFirst = (a: number, b: number): number => a + b
+const solveMeFirst = (a: number, b: number): number => a + b;
 
-export default solveMeFirst
+export default solveMeFirst;

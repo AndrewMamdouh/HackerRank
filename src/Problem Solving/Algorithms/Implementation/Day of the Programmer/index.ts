@@ -11,7 +11,7 @@ const dayOfProgrammer = (year: number): string => {
             (year > 1918 &&
                 (year % 400 === 0 || (year % 4 === 0 && year % 100 !== 0)))
           ? `12.09.${year}`
-          : `13.09.${year}`
-}
+          : `13.09.${year}`;
+};
 
-export default dayOfProgrammer
+export default dayOfProgrammer;

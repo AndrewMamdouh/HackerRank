@@ -9,25 +9,25 @@
  */
 const getTotalX = (a: number[], b: number[]): number => {
     let count = 0,
-        isValid: boolean
+        isValid: boolean;
     for (let i = a.at(-1); typeof i === 'number' && i <= b[0]; i++) {
-        isValid = true
+        isValid = true;
         for (let j = 0; j < a.length; j++) {
             if (i % a[j] !== 0) {
-                isValid = false
-                break
+                isValid = false;
+                break;
             }
         }
-        if (!isValid) continue
+        if (!isValid) continue;
         for (let j = 0; j < b.length; j++) {
             if (b[j] % i !== 0) {
-                isValid = false
-                break
+                isValid = false;
+                break;
             }
         }
-        if (isValid) count++
+        if (isValid) count++;
     }
-    return count
-}
+    return count;
+};
 
-export default getTotalX
+export default getTotalX;

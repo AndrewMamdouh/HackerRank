@@ -6,6 +6,6 @@
  * @returns {number} The number of square integers in the range
  */
 const squares = (a: number, b: number): number =>
-    Math.floor(Math.sqrt(b)) - Math.ceil(Math.sqrt(a)) + 1
+    Math.floor(Math.sqrt(b)) - Math.ceil(Math.sqrt(a)) + 1;
 
-export default squares
+export default squares;

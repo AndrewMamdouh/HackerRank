@@ -5,12 +5,12 @@
  * @returns {string} The reduced string or "Empty String"
  */
 const superReducedString = (s: string): string => {
-    let charStack = ''
+    let charStack = '';
     for (const char of s) {
-        if (char === charStack.at(-1)) charStack = charStack.slice(0, -1)
-        else charStack += char
+        if (char === charStack.at(-1)) charStack = charStack.slice(0, -1);
+        else charStack += char;
     }
-    return charStack ? charStack : 'Empty String'
-}
+    return charStack ? charStack : 'Empty String';
+};
 
-export default superReducedString
+export default superReducedString;

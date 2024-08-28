@@ -5,11 +5,11 @@
  * @returns {number[]} The frequency array
  */
 const countingSort = (arr: number[]): number[] => {
-    const countArr = Array(100).fill(0)
+    const countArr = Array(100).fill(0);
     arr.forEach((e) => {
-        countArr[e] += 1
-    })
-    return countArr
-}
+        countArr[e] += 1;
+    });
+    return countArr;
+};
 
-export default countingSort
+export default countingSort;

@@ -7,16 +7,16 @@
 const plusMinus = (arr: number[]): [string, string, string] => {
     const ratios: [number, number, number] = arr.reduce(
         (acc, cur) => {
-            acc[cur > 0 ? 0 : cur < 0 ? 1 : 2]++
-            return acc
+            acc[cur > 0 ? 0 : cur < 0 ? 1 : 2]++;
+            return acc;
         },
         [0, 0, 0]
-    )
+    );
     return ratios.map((ratio) => (ratio / arr.length).toFixed(6)) as [
         string,
         string,
         string,
-    ]
-}
+    ];
+};
 
-export default plusMinus
+export default plusMinus;

@@ -11,13 +11,13 @@ const catAndMouse = (
     y: number,
     z: number
 ): 'Cat A' | 'Cat B' | 'Mouse C' => {
-    const catADistanceDiff = Math.abs(x - z)
-    const catBDistanceDiff = Math.abs(y - z)
+    const catADistanceDiff = Math.abs(x - z);
+    const catBDistanceDiff = Math.abs(y - z);
     return catBDistanceDiff > catADistanceDiff
         ? 'Cat A'
         : catADistanceDiff > catBDistanceDiff
           ? 'Cat B'
-          : 'Mouse C'
-}
+          : 'Mouse C';
+};
 
-export default catAndMouse
+export default catAndMouse;

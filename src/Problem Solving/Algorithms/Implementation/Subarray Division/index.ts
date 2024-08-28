@@ -10,15 +10,15 @@
  */
 const birthday = (s: number[], d: number, m: number): number => {
     let sum: number,
-        count = 0
+        count = 0;
     for (let i = 0; i <= s.length - m; i++) {
-        sum = 0
+        sum = 0;
         for (let j = i; j < i + m; j++) {
-            sum += s[j]
+            sum += s[j];
         }
-        if (sum === d) count++
+        if (sum === d) count++;
     }
-    return count
-}
+    return count;
+};
 
-export default birthday
+export default birthday;

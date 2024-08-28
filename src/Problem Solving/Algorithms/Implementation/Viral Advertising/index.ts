@@ -7,13 +7,13 @@
 const viralAdvertising = (n: number): number => {
     let curLikes: number,
         totalLikes = 0,
-        exposes = 5
+        exposes = 5;
     for (let i = 0; i < n; i++) {
-        curLikes = Math.floor(exposes / 2)
-        totalLikes += curLikes
-        exposes = curLikes * 3
+        curLikes = Math.floor(exposes / 2);
+        totalLikes += curLikes;
+        exposes = curLikes * 3;
     }
-    return totalLikes
-}
+    return totalLikes;
+};
 
-export default viralAdvertising
+export default viralAdvertising;

@@ -26,7 +26,7 @@ const countApplesAndOranges = (
             (acc, cur) => (acc += b + cur >= s && b + cur <= t ? 1 : 0),
             0
         ),
-    ]
-}
+    ];
+};
 
-export default countApplesAndOranges
+export default countApplesAndOranges;

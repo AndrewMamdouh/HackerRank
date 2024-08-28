@@ -4,6 +4,6 @@
  * @param {string} s - The string to analyze
  * @returns {number} The number of words in the string
  */
-const camelcase = (s: string): number => s.split(/(?=[A-Z])/).length
+const camelcase = (s: string): number => s.split(/(?=[A-Z])/).length;
 
-export default camelcase
+export default camelcase;

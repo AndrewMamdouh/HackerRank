@@ -1,4 +1,4 @@
-import { designerPdfViewer } from '@ProblemSolving/Algorithms/Implementation'
+import { designerPdfViewer } from '@ProblemSolving/Algorithms/Implementation';
 
 test('should return the size of the highlighted area', () => {
     expect(
@@ -9,5 +9,5 @@ test('should return the size of the highlighted area', () => {
             ],
             'abc'
         )
-    ).toBe(9)
-})
+    ).toBe(9);
+});

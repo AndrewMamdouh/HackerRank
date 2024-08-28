@@ -8,10 +8,10 @@ const findDigits = (n: number): number => {
     const numDigits = n
         .toString()
         .split('')
-        .map((digit) => +digit)
-    let count = 0
-    for (const digit of numDigits) if (n % digit === 0) count++
-    return count
-}
+        .map((digit) => +digit);
+    let count = 0;
+    for (const digit of numDigits) if (n % digit === 0) count++;
+    return count;
+};
 
-export default findDigits
+export default findDigits;

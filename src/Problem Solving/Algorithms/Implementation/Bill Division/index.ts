@@ -7,8 +7,8 @@
  */
 const bonAppetit = (bill: number[], k: number, b: number): void => {
     const annaBill =
-        bill.reduce((acc, cur, idx) => (idx === k ? acc : acc + cur)) / 2
-    console.log(b === annaBill ? 'Bon Appetit' : b - annaBill)
-}
+        bill.reduce((acc, cur, idx) => (idx === k ? acc : acc + cur)) / 2;
+    console.log(b === annaBill ? 'Bon Appetit' : b - annaBill);
+};
 
-export default bonAppetit
+export default bonAppetit;

@@ -7,8 +7,8 @@
  * @returns {number} The chair number of the prisoner to warn
  */
 const saveThePrisoner = (n: number, m: number, s: number): number => {
-    const chairNum = (m % n || n) + (s - 1)
-    return chairNum > n ? chairNum - n : chairNum
-}
+    const chairNum = (m % n || n) + (s - 1);
+    return chairNum > n ? chairNum - n : chairNum;
+};
 
-export default saveThePrisoner
+export default saveThePrisoner;

@@ -8,12 +8,12 @@
  */
 const chocolateFeast = (n: number, c: number, m: number): number => {
     let barsCount = Math.floor(n / c),
-        wrappersCount = Math.floor(n / c)
+        wrappersCount = Math.floor(n / c);
     while (wrappersCount >= m) {
-        wrappersCount = wrappersCount - m + 1
-        barsCount += 1
+        wrappersCount = wrappersCount - m + 1;
+        barsCount += 1;
     }
-    return barsCount
-}
+    return barsCount;
+};
 
-export default chocolateFeast
+export default chocolateFeast;

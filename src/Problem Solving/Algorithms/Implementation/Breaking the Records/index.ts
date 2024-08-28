@@ -5,20 +5,20 @@
  * @returns {[number, number]} The array contains the numbers representing the times records have been broken
  */
 const breakingRecords = (scores: number[]): [number, number] => {
-    const minMax = Array(2).fill(scores[0])
+    const minMax = Array(2).fill(scores[0]);
     return scores.reduce(
         (acc, cur) => {
             if (cur > minMax[1]) {
-                minMax[1] = cur
-                acc[0]++
+                minMax[1] = cur;
+                acc[0]++;
             } else if (cur < minMax[0]) {
-                minMax[0] = cur
-                acc[1]++
+                minMax[0] = cur;
+                acc[1]++;
             }
-            return acc
+            return acc;
         },
         [0, 0]
-    )
-}
+    );
+};
 
-export default breakingRecords
+export default breakingRecords;

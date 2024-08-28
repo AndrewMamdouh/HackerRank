@@ -5,12 +5,12 @@
  * @returns {string} The military (24-hour) time
  */
 const timeConversion = (s: string): string => {
-    const timeArr = s.slice(0, 8).split(':')
-    const hours = parseInt(timeArr[0])
-    const isAM = s.slice(-2) === 'AM'
-    if (isAM && hours === 12) timeArr[0] = '00'
-    else if (!isAM && hours !== 12) timeArr[0] = (hours + 12).toString()
-    return timeArr.join(':')
-}
+    const timeArr = s.slice(0, 8).split(':');
+    const hours = parseInt(timeArr[0]);
+    const isAM = s.slice(-2) === 'AM';
+    if (isAM && hours === 12) timeArr[0] = '00';
+    else if (!isAM && hours !== 12) timeArr[0] = (hours + 12).toString();
+    return timeArr.join(':');
+};
 
-export default timeConversion
+export default timeConversion;

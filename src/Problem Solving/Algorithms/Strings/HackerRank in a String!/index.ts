@@ -5,12 +5,12 @@
  * @returns {"YES" | "NO"} Whether string includes the word "hackerrank"
  */
 const hackerrankInString = (s: string): 'YES' | 'NO' => {
-    const sequence = 'hackerrank'
-    let lastIdx = -1
+    const sequence = 'hackerrank';
+    let lastIdx = -1;
     for (let i = 0; i < sequence.length; i++) {
-        lastIdx = s.indexOf(sequence[i], lastIdx + 1)
-        if (lastIdx === -1) return 'NO'
+        lastIdx = s.indexOf(sequence[i], lastIdx + 1);
+        if (lastIdx === -1) return 'NO';
     }
-    return 'YES'
-}
-export default hackerrankInString
+    return 'YES';
+};
+export default hackerrankInString;

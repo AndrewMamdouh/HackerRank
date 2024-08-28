@@ -5,8 +5,8 @@
  * @returns {number} The median of the array
  */
 const findMedian = (arr: number[]): number => {
-    arr.sort((x, y) => x - y)
-    return arr[Math.floor(arr.length / 2)]
-}
+    arr.sort((x, y) => x - y);
+    return arr[Math.floor(arr.length / 2)];
+};
 
-export default findMedian
+export default findMedian;

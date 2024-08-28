@@ -11,12 +11,12 @@ const minimumNumber = (n: number, password: string): number => {
         /^(?=.*[A-Z])/,
         /^(?=.*[0-9])/,
         /(?=.*[!@#$%^&*()\-+])/,
-    ]
+    ];
     const lacksCount = regexArr.reduce(
         (acc, cur) => (password.match(cur) ? acc : ++acc),
         0
-    )
-    return n + lacksCount > 5 ? lacksCount : 6 - n
-}
+    );
+    return n + lacksCount > 5 ? lacksCount : 6 - n;
+};
 
-export default minimumNumber
+export default minimumNumber;

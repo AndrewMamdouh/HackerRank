@@ -8,12 +8,12 @@
 const compareTriplets = (a: number[], b: number[]): [number, number] => {
     return a.reduce(
         (acc, cur, idx) => {
-            if (cur > b[idx]) acc[0]++
-            else if (cur < b[idx]) acc[1]++
-            return acc
+            if (cur > b[idx]) acc[0]++;
+            else if (cur < b[idx]) acc[1]++;
+            return acc;
         },
         [0, 0]
-    )
-}
+    );
+};
 
-export default compareTriplets
+export default compareTriplets;

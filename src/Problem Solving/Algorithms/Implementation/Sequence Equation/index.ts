@@ -5,14 +5,14 @@
  * @returns {number[]} The values of (y) for all (x) in the arithmetic sequence 1 to n
  */
 const permutationEquation = (p: number[]): number[] => {
-    let firstPermutation: number, secondPermutation: number
-    const permutationArr: number[] = []
+    let firstPermutation: number, secondPermutation: number;
+    const permutationArr: number[] = [];
     for (let i = 1; i <= p.length; i++) {
-        firstPermutation = p.findIndex((e) => e === i) + 1
-        secondPermutation = p.findIndex((e) => e === firstPermutation) + 1
-        permutationArr.push(secondPermutation)
+        firstPermutation = p.findIndex((e) => e === i) + 1;
+        secondPermutation = p.findIndex((e) => e === firstPermutation) + 1;
+        permutationArr.push(secondPermutation);
     }
-    return permutationArr
-}
+    return permutationArr;
+};
 
-export default permutationEquation
+export default permutationEquation;

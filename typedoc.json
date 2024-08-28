@@ -1,0 +1,17 @@
+{
+    "entryPoints": ["src"],
+    "entryPointStrategy": "expand",
+    "out": "docs",
+    "exclude": [
+        "./src/**/*+(test).ts",
+        "./src/Problem Solving/Algorithms/Implementation/index.ts",
+        "./src/Problem Solving/Algorithms/Sorting/index.ts",
+        "./src/Problem Solving/Algorithms/Strings/index.ts",
+        "./src/Problem Solving/Algorithms/Warmup/index.ts"
+    ],
+    "plugin": ["typedoc-plugin-rename-defaults"],
+    "navigationLinks": {
+        "GitHub": "https://github.com/AndrewMamdouh/HackerRank"
+    },
+    "name": "HackerRank Solution"
+}

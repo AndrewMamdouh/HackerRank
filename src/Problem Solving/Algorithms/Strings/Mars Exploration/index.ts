@@ -5,15 +5,15 @@
  * @returns {number} The number of letters changed during transmission
  */
 const marsExploration = (s: string): number => {
-    const validMsg = 'SOS'
-    const msgCount = s.length / 3
+    const validMsg = 'SOS';
+    const msgCount = s.length / 3;
     let msg,
-        alters = 0
+        alters = 0;
     for (let i = 0; i < msgCount; i++) {
-        msg = s.substring(i * 3, i * 3 + 3)
-        for (let j = 0; j < 3; j++) alters += validMsg[j] !== msg[j] ? 1 : 0
+        msg = s.substring(i * 3, i * 3 + 3);
+        for (let j = 0; j < 3; j++) alters += validMsg[j] !== msg[j] ? 1 : 0;
     }
-    return alters
-}
+    return alters;
+};
 
-export default marsExploration
+export default marsExploration;

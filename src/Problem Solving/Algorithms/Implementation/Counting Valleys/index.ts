@@ -9,14 +9,14 @@ const countingValleys = (steps: number, path: string): number => {
     const stepVal: Record<string, number> = {
         U: 1,
         D: -1,
-    }
+    };
     let pos = 0,
-        count = 0
+        count = 0;
     for (const step of path) {
-        pos += stepVal[step]
-        if (!pos && step === 'U') count++
+        pos += stepVal[step];
+        if (!pos && step === 'U') count++;
     }
-    return count
-}
+    return count;
+};
 
-export default countingValleys
+export default countingValleys;

@@ -11,13 +11,13 @@ const getMoneySpent = (
     drives: number[],
     b: number
 ): number => {
-    let totalPrice = -1
+    let totalPrice = -1;
     for (const keyboard of keyboards) {
         for (const drive of drives) {
-            if (b >= keyboard + drive) totalPrice = keyboard + drive
+            if (b >= keyboard + drive) totalPrice = keyboard + drive;
         }
     }
-    return totalPrice
-}
+    return totalPrice;
+};
 
-export default getMoneySpent
+export default getMoneySpent;

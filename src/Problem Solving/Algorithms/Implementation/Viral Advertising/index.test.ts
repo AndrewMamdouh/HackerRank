@@ -1,5 +1,5 @@
-import { viralAdvertising } from '@ProblemSolving/Algorithms/Implementation'
+import { viralAdvertising } from '@ProblemSolving/Algorithms/Implementation';
 
 test('should return how many people have liked the ad', () => {
-    expect(viralAdvertising(3)).toBe(9)
-})
+    expect(viralAdvertising(3)).toBe(9);
+});

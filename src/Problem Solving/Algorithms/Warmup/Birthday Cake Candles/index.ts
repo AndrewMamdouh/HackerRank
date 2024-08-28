@@ -5,8 +5,8 @@
  * @returns {number} The number of candles that are tallest
  */
 const birthdayCakeCandles = (candles: number[]): number => {
-    const tallest = Math.max(...candles)
-    return candles.reduce((acc, cur) => (cur === tallest ? acc + 1 : acc), 0)
-}
+    const tallest = Math.max(...candles);
+    return candles.reduce((acc, cur) => (cur === tallest ? acc + 1 : acc), 0);
+};
 
-export default birthdayCakeCandles
+export default birthdayCakeCandles;

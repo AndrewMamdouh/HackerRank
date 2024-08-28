@@ -5,6 +5,6 @@
  * @returns {number} The sum
  */
 const simpleArraySum = (arr: number[]): number =>
-    arr.reduce((acc, cur) => acc + cur)
+    arr.reduce((acc, cur) => acc + cur);
 
-export default simpleArraySum
+export default simpleArraySum;

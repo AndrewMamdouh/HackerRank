@@ -5,14 +5,14 @@
  * @returns {number[]} The sorted array
  */
 const countingSort = (arr: number[]): number[] => {
-    const countArr: number[] = []
+    const countArr: number[] = [];
     arr.forEach((e) => {
-        countArr[e] = countArr[e] ? countArr[e] + 1 : 1
-    })
+        countArr[e] = countArr[e] ? countArr[e] + 1 : 1;
+    });
     return countArr.reduce(
         (acc, cur, idx) => (cur ? acc.concat(Array(cur).fill(idx)) : acc),
         [] as number[]
-    )
-}
+    );
+};
 
-export default countingSort
+export default countingSort;

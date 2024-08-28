@@ -12,10 +12,10 @@ const circularArrayRotation = (
     queries: number[]
 ): number[] => {
     const aCopy = [...a],
-        rotatedQueries: number[] = []
-    for (let i = 0; i < k; i++) aCopy.unshift(aCopy.pop()!)
-    for (const query of queries) rotatedQueries.push(aCopy[query])
-    return rotatedQueries
-}
+        rotatedQueries: number[] = [];
+    for (let i = 0; i < k; i++) aCopy.unshift(aCopy.pop()!);
+    for (const query of queries) rotatedQueries.push(aCopy[query]);
+    return rotatedQueries;
+};
 
-export default circularArrayRotation
+export default circularArrayRotation;

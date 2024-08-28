@@ -5,9 +5,9 @@
  * @returns {number} The height of the tree after the given number of cycles
  */
 const utopianTree = (n: number): number => {
-    if (!n) return 1
-    if (n % 2) return utopianTree(n - 1) * 2
-    return utopianTree(n - 1) + 1
-}
+    if (!n) return 1;
+    if (n % 2) return utopianTree(n - 1) * 2;
+    return utopianTree(n - 1) + 1;
+};
 
-export default utopianTree
+export default utopianTree;

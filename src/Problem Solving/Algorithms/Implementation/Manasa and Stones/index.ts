@@ -1,4 +1,4 @@
-import { recursiveSum } from '@Helpers'
+import { recursiveSum } from '@Helpers';
 
 /**
  * Computes all possible numbers that might occur on the last stone
@@ -9,6 +9,6 @@ import { recursiveSum } from '@Helpers'
  * @returns {number[]} all possible values of the last stone, sorted ascending
  */
 const stones = (n: number, a: number, b: number): number[] =>
-    recursiveSum(0, n - 1, [a, b])
+    recursiveSum(0, n - 1, [a, b]);
 
-export default stones
+export default stones;

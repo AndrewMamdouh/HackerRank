@@ -10,16 +10,16 @@
  * @returns {number | "NO"}  The minimum number of loaves required or 'NO'
  */
 const fairRations = (B: number[]): number | 'NO' => {
-    const rationsLine = [...B]
-    let count = 0
+    const rationsLine = [...B];
+    let count = 0;
     for (let i = 0; i < rationsLine.length - 1; i++) {
         if (rationsLine[i] % 2 !== 0) {
-            rationsLine[i]++
-            rationsLine[i + 1]++
-            count += 2
+            rationsLine[i]++;
+            rationsLine[i + 1]++;
+            count += 2;
         }
     }
-    return rationsLine.at(-1)! % 2 === 0 ? count : 'NO'
-}
+    return rationsLine.at(-1)! % 2 === 0 ? count : 'NO';
+};
 
-export default fairRations
+export default fairRations;

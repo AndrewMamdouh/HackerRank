@@ -6,11 +6,11 @@
  * @returns {number} The size of the highlighted area
  */
 const designerPdfViewer = (h: number[], word: string): number => {
-    const wordIdxArr = word.split('').map((ch) => ch.charCodeAt(0) - 97)
+    const wordIdxArr = word.split('').map((ch) => ch.charCodeAt(0) - 97);
     return (
         Math.max(...h.filter((_, idx) => wordIdxArr.includes(idx))) *
         word.length
-    )
-}
+    );
+};
 
-export default designerPdfViewer
+export default designerPdfViewer;
