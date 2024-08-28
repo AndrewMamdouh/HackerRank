@@ -9,15 +9,14 @@ jobs:
         steps:
             - name: Check Out Repository
               uses: actions/checkout@v4
-            - name: Install Node.js
+            - name: Enable Corepack
+              run: corepack enable
+            - name: Use Node.js v18
               uses: actions/setup-node@v4
               with:
                   node-version: lts/Hydrogen
-                  corepack: true
                   cache: yarn
             - name: Install Dependencies
-              run: |
-                  corepack enable
-                  yarn install --immutable --immutable-cache --check-cache
+              run: yarn install --immutable --immutable-cache --check-cache
             - name: Trunk Check
               uses: trunk-io/trunk-action@v1.1.16
