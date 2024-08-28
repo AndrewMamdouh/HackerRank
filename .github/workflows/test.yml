@@ -19,4 +19,4 @@ jobs:
             - name: Install Dependencies
               run: yarn install --immutable --immutable-cache --check-cache
             - name: Run Test Cases
-              uses: yarn run test
+              run: yarn run test
