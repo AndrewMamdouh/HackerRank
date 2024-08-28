@@ -7,8 +7,14 @@ jobs:
     trunk-check:
         runs-on: ubuntu-latest
         steps:
+            - name: Install Node.js
+              uses: actions/setup-node@v3
+              with:
+                node-version: 'lts/Hydrogen'
             - uses: actions/checkout@v3
             - name: Install Dependencies
-              run: yarn install --immutable --immutable-cache --check-cache
+              run: |
+                corepack enable
+                yarn install --immutable --immutable-cache --check-cache
             - name: Trunk Check
               uses: trunk-io/trunk-action@v1.1.16
