@@ -14,11 +14,10 @@
         "strict": true,
         "baseUrl": "src",
         "paths": {
-            "@ProblemSolving/Algorithms/*": ["Problem Solving/Algorithms/*"],
+            "@ProblemSolving/*": ["Problem Solving/*"],
             "@Helpers": ["helpers.ts"],
             "@Types": ["types.ts"]
         }
     },
-    "include": ["src/**/*"],
-    "exclude": ["docs", "**/*.test.ts"]
+    "include": ["src"]
 }

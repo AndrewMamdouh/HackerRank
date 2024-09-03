@@ -33,6 +33,7 @@ import appendAndDelete from '@ProblemSolving/Algorithms/Implementation/Append an
 import squares from '@ProblemSolving/Algorithms/Implementation/Sherlock and Squares';
 import flatlandSpaceStations from '@ProblemSolving/Algorithms/Implementation/Flatland Space Stations';
 import fairRations from '@ProblemSolving/Algorithms/Implementation/Fair Rations';
+import cutTheSticks from '@ProblemSolving/Algorithms/Implementation/Cut the sticks';
 
 export {
     angryProfessor,
@@ -46,6 +47,7 @@ export {
     circularArrayRotation,
     countApplesAndOranges,
     countingValleys,
+    cutTheSticks,
     dayOfProgrammer,
     designerPdfViewer,
     divisibleSumPairs,
