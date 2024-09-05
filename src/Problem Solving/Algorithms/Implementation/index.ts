@@ -34,6 +34,7 @@ import squares from '@ProblemSolving/Algorithms/Implementation/Sherlock and Squa
 import flatlandSpaceStations from '@ProblemSolving/Algorithms/Implementation/Flatland Space Stations';
 import fairRations from '@ProblemSolving/Algorithms/Implementation/Fair Rations';
 import cutTheSticks from '@ProblemSolving/Algorithms/Implementation/Cut the sticks';
+import cavityMap from '@ProblemSolving/Algorithms/Implementation/Cavity Map';
 
 export {
     angryProfessor,
@@ -43,6 +44,7 @@ export {
     bonAppetit,
     breakingRecords,
     catAndMouse,
+    cavityMap,
     chocolateFeast,
     circularArrayRotation,
     countApplesAndOranges,
