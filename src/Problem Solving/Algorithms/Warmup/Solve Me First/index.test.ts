@@ -1,5 +1,7 @@
 import { solveMeFirst } from '@ProblemSolving/Algorithms/Warmup';
 
-test('should add two numbers', () => {
-    expect(solveMeFirst(2, 3)).toBe(5);
+describe('Problem Solving » Algorithms » Warmup » Solve Me First', () => {
+    it('should add two numbers', () => {
+        expect(solveMeFirst(2, 3)).toBe(5);
+    });
 });
