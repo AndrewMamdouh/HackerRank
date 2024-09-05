@@ -35,6 +35,7 @@ import flatlandSpaceStations from '@ProblemSolving/Algorithms/Implementation/Fla
 import fairRations from '@ProblemSolving/Algorithms/Implementation/Fair Rations';
 import cutTheSticks from '@ProblemSolving/Algorithms/Implementation/Cut the sticks';
 import cavityMap from '@ProblemSolving/Algorithms/Implementation/Cavity Map';
+import kaprekarNumbers from '@ProblemSolving/Algorithms/Implementation/Modified Kaprekar Numbers';
 
 export {
     angryProfessor,
@@ -61,6 +62,7 @@ export {
     gradingStudents,
     jumpingOnClouds,
     kangaroo,
+    kaprekarNumbers,
     migratoryBirds,
     minimumDistances,
     pageCount,
