@@ -36,6 +36,7 @@ import fairRations from '@ProblemSolving/Algorithms/Implementation/Fair Rations'
 import cutTheSticks from '@ProblemSolving/Algorithms/Implementation/Cut the sticks';
 import cavityMap from '@ProblemSolving/Algorithms/Implementation/Cavity Map';
 import kaprekarNumbers from '@ProblemSolving/Algorithms/Implementation/Modified Kaprekar Numbers';
+import extraLongFactorials from '@ProblemSolving/Algorithms/Implementation/Extra Long Factorials';
 
 export {
     angryProfessor,
@@ -54,6 +55,7 @@ export {
     dayOfProgrammer,
     designerPdfViewer,
     divisibleSumPairs,
+    extraLongFactorials,
     fairRations,
     findDigits,
     flatlandSpaceStations,
